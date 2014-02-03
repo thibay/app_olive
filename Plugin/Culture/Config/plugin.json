@@ -1,0 +1,15 @@
+{
+	"name": "Culture",
+	"description": "Culture plugin for demonstrating hook system",
+
+	"author": "Author Name",
+	"authorEmail": "author@culture.com",
+	"authorUrl": "http://culture.com",
+
+	"dependencies": {
+		"plugins": [
+			"acl",
+			"extensions"
+		]
+	}
+}

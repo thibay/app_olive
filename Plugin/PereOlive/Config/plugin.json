@@ -1,0 +1,15 @@
+{
+	"name": "Père Olive",
+	"description": "Père Olive plugin",
+
+	"author": "Thibault Klijkens",
+	"authorEmail": "info@lapinoalbino.com",
+	"authorUrl": "http://www.lapinoalbino.com",
+
+	"dependencies": {
+		"plugins": [
+			"acl",
+			"extensions"
+		]
+	}
+}
