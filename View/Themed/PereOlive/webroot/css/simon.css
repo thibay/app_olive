@@ -1,0 +1,375 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-nov.-2013, 0:22:24
+    Author     : Simon
+*/
+body{
+    background: url("../img/natural_paper.png") repeat scroll center center rgba(0, 0, 0, 0);
+   
+}
+@font-face {
+    font-family: 'scala_sansregular';
+    src: url('../fonts/scala_sansregular_cn-webfont.eot');
+    src: url('../fonts/scala_sansregular_cn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/scala_sansregular_cn-webfont.woff') format('woff'),
+         url('../fonts/scala_sansregular_cn-webfont.ttf') format('truetype'),
+         url('../fonts/scala_sansregular_cn-webfont.svg#scala_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+   #jobsindex_header{
+    height:700px;
+    background:url(../img/jobsheader.png) center center no-repeat;
+    background-size:cover;
+    overflow-y:hidden;
+  }
+#jobsindex_header .block-body{
+     width:45%;
+     margin:auto;
+     text-align:center;
+     padding-left:100px;
+    }
+
+.jobs.index{
+    padding-top:0;
+    margin-top:-150px;
+    text-align:center;
+    
+    background: url("../img/natural_paper.png") repeat scroll center center rgba(0, 0, 0, 0);
+  
+}
+.jobs.index .featured{
+    display:block;
+    background:#fff;
+    margin:auto;
+    position:relative;
+    width:50%;
+    font-family: 'scala_sansregular',"bree", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif";
+    font-size:32px;
+    color:#595959;
+    height:auto;
+    padding:40px 70px 40px 70px ;
+    margin-bottom:40px;
+     -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:    0px 0px 30px rgba(0, 0, 0, 0.5);
+    box-shadow:         0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+.jobs.index .emploi{
+    color:#0d6133;
+    font-size:32px;
+    margin-bottom: 20px;
+    background-color:rgb(255,255,255);
+    background-color: rgba(255,255,255,0);
+}
+.jobs.index .offre{
+    width:80%;
+    margin:auto;
+    list-style: none;
+}
+li{
+    list-style-type: none;
+}
+.jobs.index h3{
+    font-family: "bree", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif";
+    font-size:23px;
+    color:#aeaf2a;
+    margin-top:20px;
+    font-weight:400;
+    text-transform:uppercase;
+    text-align: left;
+  
+}
+.jobs.index .annonce{
+    display:none;
+    font-family: "bree", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif";
+    font-size:23px;
+    
+}
+.jobs.index .accroche{
+   
+    font-family: "bree", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif";
+    font-size:21px;
+    font-weight: 200;
+    text-align: left;
+    
+}
+.jobs.index a{
+    color:#0d6133;
+    font-size:17px;
+     text-transform:uppercase;
+    text-decoration:none;
+    
+        
+}
+.jobs.index a:hover{
+    color:#0d6133;
+    font-size:17px;
+    text-decoration:underline;
+    
+}
+.jobs.index img{
+    float:left;
+    margin:30px 20px;
+    margin-top:0px;
+}
+hr{
+    clear:both;
+    margin:30px auto;
+    width:20%;
+    color:#e2e2e2;
+    border-top:3px solid #e2e2e2;
+   
+}
+// Jobs View
+.jobs.view{
+     width:100%;
+    background: url("../img/natural_paper.png") repeat scroll center center rgba(0, 0, 0, 0);
+    background-size:cover;
+    font-family: 'scala_sansregular',"bree", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif";
+    font-size:21px;
+   
+   
+}
+.jobs.view .header{
+    width:100%;
+    height:600px;
+    background:url('../img/staff-pere-olive.jpg')center center no-repeat;
+    background-size: cover;
+  
+}
+.postulation{
+     background:#fff;
+    position:relative;
+    width:60%;
+    margin:auto;
+    color:#595959;
+    height:auto;
+    text-align: center;
+    padding-top:50px  ;
+    margin-bottom:40px;
+     -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:    0px 0px 30px rgba(0, 0, 0, 0.5);
+    box-shadow:         0px 0px 30px rgba(0, 0, 0, 0.5);
+    
+}
+.jobs.view h2{
+
+    padding:0 10px;
+    height:40px;
+    line-height:40px;
+    text-transform:uppercase;
+    background-color:rgb(13,97,51);
+    color:white;
+    width:20%;
+    text-align: center;
+    margin:auto;
+    font-size:165%;
+}
+.postulation form{
+    width:80%;
+    margin:auto;
+}
+.postulation label
+{
+    display: inline-block;
+    width: 80px;
+    font-size:15px;
+   
+}
+
+
+.postulation input{
+
+    width:35%;
+    height: 30px;
+
+  
+}
+.postulation .numero{
+    width:20%;
+    position:relative;
+    left:31%;
+    padding:0;
+}
+.postulation .numero label{
+    position: absolute;
+    left:15.5%;
+    bottom:45%;
+    width:50%;
+                                    
+}
+
+.postulation .bte{
+
+    width:30%;
+    position:relative;
+    left:52.5%;
+    margin-top: -45px;
+    
+   
+}
+.postulation .bte label{
+    position:absolute;
+    left:20%;
+    bottom:45%;
+    width:50%;
+}
+.postulation .city{
+    width:50%;
+    position: relative;
+    left:39%;
+}
+.postulation .city label{
+    width:60px;
+    position:absolute;
+    left:29%;
+    bottom:45%;
+}
+.postulation .zip{
+    width:20%;
+    position:relative;
+    left:31%;
+    margin-top:-47px;
+      
+}
+.postulation .zip .code{
+    width:18%;
+    
+}
+.postulation .zip label{
+ 
+    position:absolute;
+    left:18%;
+    bottom:50%;
+    width:50%;
+}
+.jobs.view dl{
+    display: block;
+    margin:auto;
+    margin-top:-50px;
+    font-family: 'scala_sansregular',"bree", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif";
+    font-size:21px;
+    background:#fff;
+    position:relative;
+    width:60%;
+    color:#595959;
+    height:auto;
+    padding:40px 0px ;
+    margin-bottom:40px;
+     -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:    0px 0px 30px rgba(0, 0, 0, 0.5);
+    box-shadow:         0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+.jobs.view dl .titre h1{
+      
+    color:#aeaf2a;
+    text-transform:uppercase;
+    font-size:36px;
+    
+}
+.jobs.view dl h3{
+    
+    margin:auto;
+}
+.jobs.view dl h4{
+    color:#0d6133;
+    font-size:23px;
+}
+.jobs.view dl dt
+{
+position: relative;
+text-align: center;
+left: 0;
+top: 30px;
+width: 115px;
+font-weight: bold;
+}
+
+.jobs.view dl dd
+{
+border-left: 1px solid #000;
+margin: 0 0 0 120px;
+padding: 0 0 10px 10px;
+}
+.jobs.view dl .titre
+{
+border-left: 0px solid #000;
+}
+.postulation .submit{
+    display:none;
+}
+.postulation button {
+    width:150px;
+    margin:20px 0px;
+   border:0;
+   background: #0c6132;
+   padding: 5px 10px;
+   color: white;
+   font-size:20px;
+   border-radius: 3px;
+   font-family: "bree",Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.postulation button:hover {
+  
+   background: #0f7227;
+   color: #ffffff;
+   }
+.postulation.button:active {
+   border-top-color: #0f7227;
+   background: #0d6133;
+   }
+   .postulation .prenom,.postulation .nom ,.postulation .mail{
+       position:relative;
+       left:5%;
+       z-index:0;
+       width:100%;
+   }
+   .postulation .prenom label{
+       position: absolute;
+       z-index:1;
+       left:31%;
+       bottom:45%;
+   }
+   .postulation .nom label{
+       position: absolute;
+       z-index:1;
+       left:30%;
+       bottom:45%;
+   }
+      .postulation .mail label{
+       position: absolute;
+       z-index:1;
+       left:30.5%;
+       bottom:45%;
+   }
+   .postulation .tel{
+       position:relative;
+       left:2.5%;
+       z-index:0;
+       width:100%;
+   }
+         .postulation .tel label{
+       position: absolute;
+       z-index:1;
+       left:31.5%;
+       bottom:28%;
+   }
+   .postulation .adresse{
+       position:relative;
+       left:5%;
+       z-index:0;
+       width:100%;
+   }
+         .postulation .adresse label{
+       position: absolute;
+       left:29%;
+       bottom:42%;
+   }

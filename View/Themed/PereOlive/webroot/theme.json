@@ -1,0 +1,19 @@
+{
+  "name" : "Père Olive",
+  "description" : "Père Olive theme for Croogo",
+  "screenshot" : "screenshot.png",
+
+  "author" : "Thibault KLijkens",
+  "authorEmail" : "thibault@lapinoalbino.com",
+  "authorUrl" : "http://www.lapinoalbino.com",
+
+  "menus" : [
+    "main",
+    "footer"
+    ],
+
+  "regions" : [
+    "footer1",
+    "footer2"
+    ]
+}

@@ -1,0 +1,1 @@
+<?php echo $this->Html->image("/img/uploads/2013/08/SaxGordon_49_940x500.jpg", array( 'class'=>'sixteen columns alpha omega', 'style'=>'margin-bottom:20px')); ?>
